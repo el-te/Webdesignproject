@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+/*background-color: #242528;*/
+font-family: "Montserrat", sans-serif;
+font-weight: 500;
+}
+
+.table{
+display: table;
+margin: auto;
+}
+
+.nav-links li{
+display: inline-block;
+}
+
+.nav-links li a{
+font-family: "Montserrat", sans-serif;
+font-weight: 500;
+font-size: 20px;
+color: black;
+text-decoration: none;
+
+}
+header{
+display: flex;
+padding: 30px;
+}
+.nav-links li{
+padding: 0px 20px;
+}
+
+.nav-links li a:hover{
+color: #0088a9;
+}
+
+.box-area{
+display: flex;
+flex-wrap: wrap;
+/*justify-content: center;*/
+align-items: center;
+}
+
+.header-text strong{
+background-color: #04070a;
+}
+.header-text{
+padding: 10px 0 40px 0;
+background-color: transparent;
+}
+.header-text2 strong{
+background-color: #04070a;
+}
+.header-text2{
+padding: 10% 0 20px 30px;
+background-color: #04070a;
+text-decoration: underline;
+}
+.section-left{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 300px;
+height: auto;
+border-radius: 4px;
+background-color: #04070a;
+text-align: center;
+margin: 40px 20px 20px 0;
+padding: 20px;
+transition: .3s;
+color: #fff;
+opacity: .8;
+}
+
+ul{
+list-style-type: none;
+background-color: transparent;
+}
+a{
+text-decoration: none;
+color: #242528;
+}
+li{
+background-color: transparent;
+
+}
+li a{
+background-color: transparent;
+}
+
+
+
+button{
+padding: 30px 25px;
+background-color: #fff;
+border-radius: 0px;
+background-color: #04070a;
+text-decoration: none;
+border: none;
+color: #fff;
+cursor: pointer;
+}
+button:hover{
+background-color: #fff;
+color: #04070a;
+}
+.dropdownbtn:hover{
+background-color: black;
+color: #fff;
+}
+.dropdownbtn {
+padding: 20px 30px;
+background-color: #fff;
+border-radius: 0px;
+text-decoration: none;
+border: none;
+color: black;
+cursor: pointer;
+font-size: 16px;
+}
+.btn-icon{
+width: 20px;
+height: 20px;
+background-color: transparent;
+}
+
+/*DROPDOWN BOX*/
+.dropbtn {
+  background-color: #fff;
+  color: #04070a;
+  padding: 16px;
+  /*font-size: 16px;*/
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background-color: transparent;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 10px;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+/*DROPDOWN BUTTON HOVER*/
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #fff;}
+
+
+.container{
+color: white;
+width: 100%;
+height: 860PX;
+background: #000 url("picbig.jpg");
+
+display: flex;
+flex-flow: row wrap; /*PUT DIVS IN A ROW AND WILL JUMP TO NEW LINE*/
+
+align-items: center;
+align-content: space-around;
+/* BACKGROUND IMAGE FIT PROPERLY*/
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.conainer-overlay{
+display: flex;
+flex-flow: row wrap;
+height: 100%;
+width: 100%;
+align-items: center;
+background: #000;
+opacity: .7;
+
+}
+.items{
+width: 60%;
+height: 250px;
+margin-left: 100px;
+padding-left: 50px;
+display: flex;
+flex-flow: row wrap;
+background-color: #04070a;
+opacity: .8;
+
+
+align-items: center; /*align vertically centre*/
+}
+
+/*SAMLL IMAGE LEFT SECTION*/
+.item1{
+width: 100px;
+}
+img{
+width: 100px;
+}
+/*RIGHT SECTION (Bio)*/
+.item2{
+width: 60%;
+
+margin-left: 50px;
+}
+.item2 h1{
+line-height: 60px;
+}
+.item2 p{
+margin-top: 20px;
+line-height: 20px;
+font-size: 14px;
+}
+
+.underline {
+   text-decoration: none;
+   position: relative;
+ }  
+
+/*H1 UNDERLNE*/
+.underline:after {
+    position: absolute;
+    height: 2px;
+    /*margin: 0 auto;*/
+    content: '';
+    left: 0;
+    right: 0;
+    width: 33%;
+    color: #000;
+    background-color: #fff;
+    left: 0;
+    bottom: -3px; /* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
+}
+
+/*UNIT PAGE CONTENT*/
+.body{
+ height: 100%;
+  margin: 0;
+}
+.container-cont{
+display: flex;
+flex-flow: row;
+width: 100%;
+height: 100%;
+justify-content: center;
+background: #34333d;
+color: #fff;
+}
+.content-assi{
+display: flex;
+flex-direction: column;
+width: 60%;
+justify-content: center;
+line-height: 30px;
+padding: 50px 0 50px;
+}
+.h1cont{
+line-height: 50px;
+}
+
