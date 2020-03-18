@@ -13,28 +13,10 @@ display: table;
 margin: auto;
 }
 
-.nav-links li{
-display: inline-block;
-}
 
-.nav-links li a{
-font-family: "Montserrat", sans-serif;
-font-weight: 500;
-font-size: 20px;
-color: black;
-text-decoration: none;
-
-}
 header{
 display: flex;
 padding: 30px;
-}
-.nav-links li{
-padding: 0px 20px;
-}
-
-.nav-links li a:hover{
-color: #0088a9;
 }
 
 .box-area{
@@ -83,8 +65,9 @@ background-color: transparent;
 }
 a{
 text-decoration: none;
-color: #242528;
+color: #fff;
 }
+
 li{
 background-color: transparent;
 
@@ -172,8 +155,8 @@ background-color: transparent;
 .container{
 color: white;
 width: 100%;
-height: 860PX;
-background: #000 url("picbig.JPG");
+height: 900px;
+background: #000 url("picbig.jpg");
 
 display: flex;
 flex-flow: row wrap; /*PUT DIVS IN A ROW AND WILL JUMP TO NEW LINE*/
@@ -252,7 +235,7 @@ font-size: 14px;
     bottom: -3px; /* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
 }
 
-/*UNIT PAGE CONTENT*/
+/*UNIT CONTENT*/
 .body{
  height: 100%;
   margin: 0;
@@ -278,3 +261,124 @@ padding: 50px 0 50px;
 line-height: 50px;
 }
 
+.logo{
+width: 50px;
+height: 50px;
+
+}
+
+/*CONTACT PAGE*/
+.contact-top{
+width:100%;
+/*height: 200px;*/
+/*background-color: #d0dee8;*/
+display: flex;
+justify-content: center;
+}
+.contact-inner{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 70%;
+align-items: center;
+
+}
+.cont-info{
+display: flex;
+width: 450px;
+height: 90px;
+
+justify-content: center;
+align-items: center;
+/*border: 1px solid black;
+border-radius: 3px;*/
+font-size: 16px;
+}
+.cont-info-3{
+display: flex;
+width: 450px;
+height: 90px;
+
+justify-content: center;
+/*align-items: center;*/
+/*border: 1px solid black;*/
+border-radius: 3px;
+}
+
+/*CONTACT FORM*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #548eb7;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/*HEADING*/
+.header{
+width:100%;
+display: flex;
+justify-content: center;
+margin-bottom: 60px;
+}
+/*ABOUT PAGE*/
+.ap-inner{
+width: 100%;
+height: 500px;
+/*background-color: #ccc;*/
+
+display: flex; /*display elements horizontally*/
+justify-content: center;
+
+}
+#ap-pic {
+width: 150px;
+height: auto;
+
+}
+.ap-info{
+
+font-size: 18px;
+flex-basis: 40%
+}
+.ap-info p{
+line-height: 40px;
+}
+.ap-info h2{
+margin-bottom: 8px;
+}
+.ap-info-img{
+margin-top: 30px
+margin-left: 30px;
+}
+/*NAVIGATION BUTTONS INDEX*/
+.button {
+  text-decoration: none;
+  background-color: transparent;
+  color: #fff;
+  display: inline-block;
+  font-size: 15px;
+  padding: 25px 35px;
+}
+.button:hover {
+  text-decoration: none;
+  background-color: white;
+  border-color: white;
+  color: black;
+}
